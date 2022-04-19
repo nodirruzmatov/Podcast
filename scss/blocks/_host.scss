@@ -1,0 +1,62 @@
+.host {
+  background-image: url(../../images/host-back.png);
+  background-size: 584px 598px;
+  background-repeat: no-repeat;
+  background-position: calc(50%+100px);
+}
+
+.host__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.host__heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+}
+
+.host__desc {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  width: 615px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.host__btn {
+  margin: 0;
+  padding: 0;
+  padding: 10px 27px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1C1B1E;
+  border: 1px solid #000;
+  border-radius: 40px;
+  background-color: transparent;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+}

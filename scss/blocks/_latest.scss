@@ -1,5 +1,11 @@
 .latest {
-  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.latest__container > div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .latest__heading {
@@ -77,6 +83,14 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #9224D6;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.4;
+    }
   }
 
   & > div {
