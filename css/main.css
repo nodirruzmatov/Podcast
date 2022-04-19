@@ -393,14 +393,210 @@ img {
   padding: 0 20px;
 }
 
+.header {
+  padding-top: 32px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8FDEFF), color-stop(#0EA3E3), color-stop(#17044D), to(#6C22C9));
+  background-image: linear-gradient(to right, #8FDEFF, #0EA3E3, #17044D, #6C22C9);
+  background-size: 400% 400%;
+  -webkit-animation: animate-background 10s infinite ease-in-out;
+          animation: animate-background 10s infinite ease-in-out;
+}
+
+.header .top__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sitenav__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.sitenav__list .sitenav__item .sitenav__link {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #cfcfd7;
+  text-decoration: none;
+}
+
+.sitenav__list .sitenav__item .sitenav__link:hover {
+  opacity: 0.8;
+}
+
+.sitenav__list .sitenav__item .sitenav__link:active {
+  opacity: 0.4;
+}
+
+.sitenav__list .sitenav__item + .sitenav__item {
+  margin-left: 50px;
+}
+
+.sitenav__btn {
+  margin: 0;
+  padding: 0;
+  margin-left: 53px;
+  padding: 9px 36px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+@-webkit-keyframes animate-background {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes animate-background {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
 .main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
 
+.hero__container {
+  padding-top: 126px;
+  padding-bottom: 155px;
+  background-image: url(../../images/hero-back.png);
+  background-repeat: no-repeat;
+  background-size: 609px 603px;
+  background-position: right 0 top 51px;
+}
+
+.hero__container > span {
+  margin-bottom: 19px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+}
+
+.hero__heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 17px;
+  width: 650px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 66px;
+  line-height: 70px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.hero__desc {
+  margin: 0;
+  padding: 0;
+  width: 545px;
+  margin-bottom: 11px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.hero__btn {
+  margin: 0;
+  padding: 0;
+  margin-right: 8px;
+  padding: 13px 30px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  border-radius: 33px;
+  border: 1px solid transparent;
+  background-image: linear-gradient(265.37deg, #9224D6 -49.74%, #BD87DE 116.53%);
+}
+
+.hero__btn:hover {
+  opacity: 0.8;
+}
+
+.hero__btn:active {
+  opacity: 0.4;
+}
+
+.hero__btn--color {
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #fff;
+}
+
+.hero__btn--color:hover {
+  opacity: 0.8;
+}
+
+.hero__btn--color:active {
+  opacity: 0.4;
+}
+
+.hero__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 63px;
+  padding-bottom: 17px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.13em;
+  color: #FFFFFF;
+}
+
+.hero__link {
+  padding: 0 24px;
+}
+
 .latest {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .latest__heading {
