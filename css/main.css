@@ -388,7 +388,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1157px;
+  max-width: 1235px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -397,5 +397,110 @@ img {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.latest {
+  margin-top: 50px;
+}
+
+.latest__heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: 0.05em;
+}
+
+.latest__list {
+  margin: 0;
+  padding: 0;
+  margin: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.latest__item {
+  width: 377px;
+  margin: 15px;
+}
+
+.latest__item > img {
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.latest__item .latest__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+.latest__item .item__heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.latest__item .latest__desc {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 19px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.latest__item .latest__btn {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: none;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #9224D6;
+}
+
+.latest__item > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.latest__item .latest__date {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=main.css.map */
