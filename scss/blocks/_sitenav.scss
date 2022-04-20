@@ -1,0 +1,48 @@
+
+.sitenav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+  .sitenav__item {
+    .sitenav__link {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0.02em;
+      color: #cfcfd7;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &:active {
+        opacity: 0.4;
+      }
+    }
+  }
+
+  .sitenav__item + .sitenav__item {
+    margin-left: 50px;
+  }
+}
+
+.sitenav__btn {
+  margin: 0;
+  padding: 0;
+  margin-left: 53px;
+  padding: 9px 36px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: transparent;
+}
